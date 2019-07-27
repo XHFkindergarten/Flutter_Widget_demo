@@ -3,6 +3,9 @@ import 'BottomNavigation/bottom_navigation_widget.dart';
 import 'BottomAppBar/bottom_app_bar_demo.dart';
 import 'FrostedGlassDemo/frosted_glass_demo.dart';
 import 'RouteFlash/page.dart';
+import 'KeepAliveDemo/keep_alive_demo.dart';
+import 'SearchBar/search_bar_demo.dart';
+import 'WarpDemo/warp_demo.dart';
 
 void main() => runApp(MyApp());
 
@@ -41,13 +44,38 @@ void main() => runApp(MyApp());
  * 并且在上方悬浮文字
  */
 
+/**
+ * 5.保持页面状态
+ * home: KeepAliveDemo()
+ * @description
+ * 当不同页面跳转的时候保存之前页面的数据
+ */
+
+/**
+ * 6.不简单的搜索栏
+ * home: SearchBarDemo()
+ * @description
+ * 包含默认提示
+ * 待选提示列表
+ * 选择提示文字进行显示
+ * 返回&取消
+ */
+
+/**
+ * 7.Warp流式布局
+ * home: WarpDemo()
+ * @description
+ * 点击添加按钮添加照片组件
+ * 照片按照流式布局排列（超出范围自动换行）
+ */
+
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Widget Demos',
       theme: ThemeData.dark(),
-      home: BottomAppBarDemo(),
+      home: WarpDemo(),
     );
   }
 }
