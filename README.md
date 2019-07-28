@@ -5,7 +5,7 @@ home: ```BottomNavigationWidget()```
 传统的底部导航栏
 导航跳转路由会有高亮显示(IOS会放大一点点,Android会放大+出现文字)
 
-![图片1](https://img.xhfkindergarten.cn/WechatIMG28.png)
+<img src="https://img.xhfkindergarten.cn/WechatIMG28.png" style="width:100px;" />
 
 #### 2. 底部导航栏中间嵌入圆形(+)按钮
 home: ```BottomAppBarDemo()```
