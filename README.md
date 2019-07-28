@@ -2,6 +2,8 @@
 > @description
 > 基本是仿写,自己做了一些小优化和修改(原例demo有丶吃藕)
 
+* 下载下来之后只需要修改lib/main.dart中的home入口文件就可以体验各个demo(依赖已经写好)
+
 师承 [技术胖—专注前端开发](http://jspang.com/posts/2019/02/22/flutterdemo.html)
 
 
